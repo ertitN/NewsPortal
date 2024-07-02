@@ -1,6 +1,6 @@
 # News Portal REST API
 
-This project provides a REST API for managing news headlines, content, and authors. The API supports operations such as creating, updating, deleting, and listing news articles.
+This project provides a REST API for managing news titles, content, and authors. The API supports operations such as creating, updating, deleting, and listing news articles.
 
 ## Table of Contents
 
@@ -114,7 +114,7 @@ curl -X PUT http://localhost:8080/api/news/{id} \
 | GET         | /api/news/{id}    | Get a specific news article                                  |
 | PUT         | /api/news/{id}    | Update a specific news article (only by owner or admin)      |
 | DELETE      | /api/news/{id}    | Delete a specific news article (only by admin)               |       
-| GET         | /api/authors/{id} | Get a specific author                                        |
-| PUT         | /api/authors/{id} | Update a specific author                                     |
-| DELETE      | /api/authors/{id} | Delete a specific author                                     |
+| GET         | /api/users/{id} | Get a specific author                                        |
+| PUT         | /api/users/{id} | Update a specific author                                     |
+| DELETE      | /api/users/{id} | Delete a specific author                                     |
 
